@@ -49,7 +49,7 @@ let totalVotesTd = document.querySelector("#total-votes");
 let dogDiv = document.querySelector("#doggo");
 let catDiv = document.querySelector("#catto");
 let fishDiv = document.querySelector("#fish");
-
+let favDiv = document.querySelector("#favorite-pet")
 
 
 
@@ -168,6 +168,16 @@ SubFishVoteBtn.addEventListener('click', function(e) {
 
 
 
+// favporite pet button
+
+let favoritePetBtn = document.createElement('button');
+favoritePetBtn.textContent = "Get Favorite Pet";
+favoritePetBtn.style.backgroundColor = 'white';
+favoritePetBtn.style.fontSize = 'large';
+favoritePetBtn.style.fontFamily = 'Verdana';
+favoritePetBtn.style.borderRadius = '10px'
+
+favDiv.append(favoritePetBtn);
 
 
 
