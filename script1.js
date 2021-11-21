@@ -59,6 +59,11 @@ let favDiv = document.querySelector("#favorite-pet")
 // creating and append our dog vote button
 let dogVoteBtn = document.createElement('button');
 dogVoteBtn.textContent = "+ Vote for Doggo";
+dogVoteBtn.style.fontSize = 'large';
+dogVoteBtn.style.fontFamily = 'Verdana';
+dogVoteBtn.style.borderRadius = '10px';
+dogVoteBtn.style.padding = '5px';
+dogVoteBtn.style.backgroundColor = 'lightgreen';
 dogDiv.append(dogVoteBtn);
 
 
@@ -79,6 +84,11 @@ dogVoteBtn.addEventListener('click', function(){
 // create dog vote MINUS button
 let SubdogVoteBtn = document.createElement("button")
 SubdogVoteBtn.textContent = "- Vote for Doggo"
+SubdogVoteBtn.style.fontSize = 'large';
+SubdogVoteBtn.style.fontFamily = 'Verdana';
+SubdogVoteBtn.style.borderRadius = '10px';
+SubdogVoteBtn.style.padding = '5px';
+SubdogVoteBtn.style.backgroundColor = 'crimson';
 dogDiv.append(SubdogVoteBtn)
 
 SubdogVoteBtn.addEventListener('click', function(e) {
@@ -99,6 +109,11 @@ SubdogVoteBtn.addEventListener('click', function(e) {
 // create and append our cat vote button
 let catVoteBtn = document.createElement('button');
 catVoteBtn.textContent = "+ Vote for Catto";
+catVoteBtn.style.fontSize = 'large';
+catVoteBtn.style.fontFamily = 'Verdana';
+catVoteBtn.style.borderRadius = '10px';
+catVoteBtn.style.padding = '5px';
+catVoteBtn.style.backgroundColor = 'lightgreen';
 catDiv.append(catVoteBtn);
 
 // add event listener to our cat vote button, and update #catto-votes with each click.
@@ -119,6 +134,11 @@ catVoteBtn.addEventListener('click', function(){
 // create cat vote MINUS button
 let SubCatVoteBtn = document.createElement("button")
 SubCatVoteBtn.textContent = "- Vote for Catto"
+SubCatVoteBtn.style.fontSize = 'large';
+SubCatVoteBtn.style.fontFamily = 'Verdana';
+SubCatVoteBtn.style.borderRadius = '10px';
+SubCatVoteBtn.style.padding = '5px';
+SubCatVoteBtn.style.backgroundColor = 'crimson';
 catDiv.append(SubCatVoteBtn)
 
 SubCatVoteBtn.addEventListener('click', function(e) {
@@ -138,6 +158,11 @@ SubCatVoteBtn.addEventListener('click', function(e) {
 // create and append our fish vote button
 let fishVoteBtn = document.createElement('button');
 fishVoteBtn.textContent = "+ Vote for Fish";
+fishVoteBtn.style.fontSize = 'large';
+fishVoteBtn.style.fontFamily = 'Verdana';
+fishVoteBtn.style.borderRadius = '10px';
+fishVoteBtn.style.padding = '5px';
+fishVoteBtn.style.backgroundColor = 'lightgreen';
 fishDiv.append(fishVoteBtn);
 
 fishVoteBtn.addEventListener('click', function(){
@@ -155,6 +180,11 @@ fishVoteBtn.addEventListener('click', function(){
 // create fish vote MINUS button
 let SubFishVoteBtn = document.createElement("button")
 SubFishVoteBtn.textContent = "- Vote for Fish"
+SubFishVoteBtn.style.fontSize = 'large';
+SubFishVoteBtn.style.fontFamily = 'Verdana';
+SubFishVoteBtn.style.borderRadius = '10px';
+SubFishVoteBtn.style.padding = '5px';
+SubFishVoteBtn.style.backgroundColor = 'crimson';
 fishDiv.append(SubFishVoteBtn)
 
 SubFishVoteBtn.addEventListener('click', function(e) {
