@@ -58,12 +58,14 @@ let favDiv = document.querySelector("#favorite-pet")
 
 // creating and append our dog vote button
 let dogVoteBtn = document.createElement('button');
+// style the vote button
 dogVoteBtn.textContent = "+ Vote for Doggo";
 dogVoteBtn.style.fontSize = 'large';
 dogVoteBtn.style.fontFamily = 'Verdana';
 dogVoteBtn.style.borderRadius = '10px';
-dogVoteBtn.style.padding = '5px';
+dogVoteBtn.style.padding = '2px';
 dogVoteBtn.style.backgroundColor = 'lightgreen';
+//append
 dogDiv.append(dogVoteBtn);
 
 
@@ -83,12 +85,14 @@ dogVoteBtn.addEventListener('click', function(){
 
 // create dog vote MINUS button
 let SubdogVoteBtn = document.createElement("button")
+// style the minus button
 SubdogVoteBtn.textContent = "- Vote for Doggo"
 SubdogVoteBtn.style.fontSize = 'large';
 SubdogVoteBtn.style.fontFamily = 'Verdana';
 SubdogVoteBtn.style.borderRadius = '10px';
-SubdogVoteBtn.style.padding = '5px';
+SubdogVoteBtn.style.padding = '2px';
 SubdogVoteBtn.style.backgroundColor = 'crimson';
+//append
 dogDiv.append(SubdogVoteBtn)
 
 SubdogVoteBtn.addEventListener('click', function(e) {
@@ -112,7 +116,7 @@ catVoteBtn.textContent = "+ Vote for Catto";
 catVoteBtn.style.fontSize = 'large';
 catVoteBtn.style.fontFamily = 'Verdana';
 catVoteBtn.style.borderRadius = '10px';
-catVoteBtn.style.padding = '5px';
+catVoteBtn.style.padding = '2px';
 catVoteBtn.style.backgroundColor = 'lightgreen';
 catDiv.append(catVoteBtn);
 
@@ -137,7 +141,7 @@ SubCatVoteBtn.textContent = "- Vote for Catto"
 SubCatVoteBtn.style.fontSize = 'large';
 SubCatVoteBtn.style.fontFamily = 'Verdana';
 SubCatVoteBtn.style.borderRadius = '10px';
-SubCatVoteBtn.style.padding = '5px';
+SubCatVoteBtn.style.padding = '2px';
 SubCatVoteBtn.style.backgroundColor = 'crimson';
 catDiv.append(SubCatVoteBtn)
 
@@ -161,7 +165,7 @@ fishVoteBtn.textContent = "+ Vote for Fish";
 fishVoteBtn.style.fontSize = 'large';
 fishVoteBtn.style.fontFamily = 'Verdana';
 fishVoteBtn.style.borderRadius = '10px';
-fishVoteBtn.style.padding = '5px';
+fishVoteBtn.style.padding = '2px';
 fishVoteBtn.style.backgroundColor = 'lightgreen';
 fishDiv.append(fishVoteBtn);
 
@@ -183,7 +187,7 @@ SubFishVoteBtn.textContent = "- Vote for Fish"
 SubFishVoteBtn.style.fontSize = 'large';
 SubFishVoteBtn.style.fontFamily = 'Verdana';
 SubFishVoteBtn.style.borderRadius = '10px';
-SubFishVoteBtn.style.padding = '5px';
+SubFishVoteBtn.style.padding = '2px';
 SubFishVoteBtn.style.backgroundColor = 'crimson';
 fishDiv.append(SubFishVoteBtn)
 
